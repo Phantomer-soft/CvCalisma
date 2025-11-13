@@ -25,7 +25,7 @@ while True:
     ret,frame=cap.read()
     frame=cv2.flip(frame,1)
     frame_hsv=cv2.cvtColor(frame,cv2.COLOR_BGR2HSV)
-#        KULLANICI PENCERENİN YERİNİ DEĞİŞTİRSE BİLE BU DEĞERLERİ ALABİLMESİNİ SAĞLADIK
+#        KULLANICI PENCERENİN YERİNİ DEĞİŞTİRSE BİLE BU DEĞERLERİ ALABİLMESİNİ SAĞLADIKK
     alt_h = cv2.getTrackbarPos("alt-h","bar")
     alt_s = cv2.getTrackbarPos("alt-s", "bar")
     alt_v = cv2.getTrackbarPos("alt-v", "bar")
